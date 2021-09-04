@@ -67,11 +67,11 @@ function App() {
     
    
     return (
-      <div>{isLoading ? "Data is loading..." :<div>
+      <div>{isLoading ? "Data is loading..." :<>
                                                 <BeerCards beers={beerData}/> 
                                                 <Filter beers={beerData} handleSubmit={onSubmit}/>
                                                 <Pagination pageNumber = {pageNumber} nextPage={nextPage} prevPage={prevPage}/>
-                                              </div>
+                                              </>
       }
       </div>
     )
