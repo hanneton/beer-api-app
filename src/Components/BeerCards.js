@@ -1,6 +1,7 @@
 // import { render } from '@testing-library/react';
 import React from 'react';
 import BeerItem from './BeerItem'
+// не используй инлайновые стили если нету динамических свойств, используй css/sass/что-то-еще
 const styles = {
     display: 'flex',
     justifyContent: 'space-between',

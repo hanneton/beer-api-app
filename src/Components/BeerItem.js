@@ -9,6 +9,7 @@ const styles = {
     },
     
 }
+// не используй инлайновые стили если нету динамических свойств, используй css/sass/что-то-еще
 
 export default function BeerCard(props) {
     const beer = props.beer;
