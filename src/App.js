@@ -8,6 +8,8 @@ import useDebounce from './Components/useDebounce';
 
 function App() {
   const URL = `https://api.punkapi.com/v2/beers?`;
+  // урлу стоит вынести в .env
+  // Почему везде внизу let? Используй const везде где можешь
   let [beerData, setBeerData] = useState(0);
   let [isLoading, setIsLoading] = useState(true);
   let [nPerPage, setNPerPage] = useState(10);
